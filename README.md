@@ -175,9 +175,6 @@ Berikut gambaran umum alur interaksi dalam Modul Manajemen Pasien:
 | Backup & Disaster Recovery | Menyediakan mekanisme backup data dan recovery sistem untuk menjaga ketersediaan layanan. |
 
 # 3. Peran Pengguna dan Hak Akses
-
-## 3.1 Deskripsi Umum
-
 Sistem Informasi Rumah Sakit (SIR/HIS) menerapkan mekanisme Role Based Access Control (RBAC) untuk mengatur hak akses pengguna berdasarkan peran dan tanggung jawab masing-masing. Setiap pengguna hanya dapat mengakses fitur dan data sesuai dengan kewenangan yang diberikan oleh sistem.
 
 Penerapan hak akses bertujuan untuk:
@@ -189,7 +186,7 @@ Penerapan hak akses bertujuan untuk:
 
 ---
 
-## 3.2 Peran Pengguna
+## 3.1 Peran Pengguna
 
 Berikut adalah daftar peran pengguna utama dalam sistem SIR/HIS:
 
@@ -206,9 +203,9 @@ Berikut adalah daftar peran pengguna utama dalam sistem SIR/HIS:
 
 ---
 
-## 3.3 Hak Akses Pengguna
+## 3.2 Hak Akses Pengguna
 
-### 3.3.1 Administrator
+### 3.2.1 Administrator
 
 | Fitur / Modul | Hak Akses |
 |---|---|
@@ -221,7 +218,7 @@ Berikut adalah daftar peran pengguna utama dalam sistem SIR/HIS:
 
 ---
 
-### 3.3.2 Petugas Registrasi
+### 3.2.2 Petugas Registrasi
 
 | Fitur / Modul | Hak Akses |
 |---|---|
@@ -233,7 +230,7 @@ Berikut adalah daftar peran pengguna utama dalam sistem SIR/HIS:
 
 ---
 
-### 3.3.3 Dokter
+### 3.2.3 Dokter
 
 | Fitur / Modul | Hak Akses |
 |---|---|
@@ -247,7 +244,7 @@ Berikut adalah daftar peran pengguna utama dalam sistem SIR/HIS:
 
 ---
 
-### 3.3.4 Perawat
+### 3.2.4 Perawat
 
 | Fitur / Modul | Hak Akses |
 |---|---|
@@ -259,7 +256,7 @@ Berikut adalah daftar peran pengguna utama dalam sistem SIR/HIS:
 
 ---
 
-### 3.3.5 Petugas Laboratorium
+### 3.2.5 Petugas Laboratorium
 
 | Fitur / Modul | Hak Akses |
 |---|---|
@@ -269,7 +266,7 @@ Berikut adalah daftar peran pengguna utama dalam sistem SIR/HIS:
 
 ---
 
-### 3.3.6 Apoteker
+### 3.2.6 Apoteker
 
 | Fitur / Modul | Hak Akses |
 |---|---|
@@ -280,7 +277,7 @@ Berikut adalah daftar peran pengguna utama dalam sistem SIR/HIS:
 
 ---
 
-### 3.3.7 Kasir / Billing Staff
+### 3.2.7 Kasir / Billing Staff
 
 | Fitur / Modul | Hak Akses |
 |---|---|
@@ -291,7 +288,7 @@ Berikut adalah daftar peran pengguna utama dalam sistem SIR/HIS:
 
 ---
 
-### 3.3.8 Pasien
+### 3.2.8 Pasien
 
 | Fitur / Modul | Hak Akses |
 |---|---|
@@ -303,7 +300,7 @@ Berikut adalah daftar peran pengguna utama dalam sistem SIR/HIS:
 
 ---
 
-## 3.4 Matriks Hak Akses
+## 3.3 Matriks Hak Akses
 
 | Modul / Fitur | Administrator | Petugas Registrasi | Dokter | Perawat | Lab | Apoteker | Billing | Pasien |
 |---|---|---|---|---|---|---|---|---|
@@ -327,7 +324,7 @@ Keterangan:
 
 ---
 
-## 3.5 Mekanisme Keamanan Hak Akses
+## 3.4 Mekanisme Keamanan Hak Akses
 
 Sistem menerapkan beberapa mekanisme keamanan untuk memastikan pengelolaan hak akses berjalan dengan aman dan terkontrol, antara lain:
 
@@ -343,7 +340,7 @@ Sistem menerapkan beberapa mekanisme keamanan untuk memastikan pengelolaan hak a
 
 ---
 
-## 3.6 Alur Autentikasi Pengguna
+## 3.5 Alur Autentikasi Pengguna
 
 ```mermaid
 flowchart LR
