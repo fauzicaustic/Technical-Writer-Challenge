@@ -123,13 +123,15 @@ Komponen utama arsitektur sistem terdiri dari:
 
 Berikut gambaran umum alur interaksi dalam Modul Manajemen Pasien:
 
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/6f474829-ee8e-411b-9c5d-d425c6959a57" />
+
+
 1. Petugas registrasi melakukan input atau pencarian data pasien.
 2. Sistem memvalidasi data pasien dan membuat nomor rekam medis apabila pasien baru.
 3. Dokter dan tenaga medis mengakses data pasien berdasarkan hak akses masing-masing.
 4. Data pemeriksaan, diagnosis, tindakan medis, dan resep disimpan ke dalam sistem.
 5. Sistem mengintegrasikan data dengan modul laboratorium, farmasi, dan billing.
 6. Seluruh aktivitas pengguna dicatat ke dalam audit log sistem.
-
 ---
 
 ## 2.5 Diagram Arsitektur Sistem
