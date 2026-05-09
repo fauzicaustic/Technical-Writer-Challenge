@@ -2,7 +2,6 @@
 
 Dokumen ini menyajikan arsitektur mikroservis terperinci untuk **Modul Manajemen Pasien** pada Sistem Informasi Rumah Sakit (HIS). Arsitektur dirancang berlapis: komponen *frontend* (web/portal/mobile), *API Gateway* dengan layanan autentikasi (OAuth2/OIDC), sejumlah mikroservis domain (Pasien, EMR, Janji Temu, Lab, Farmasi, Billing), serta *backend* terpadu (FHIR Server, Terminology Server, basis data, cache, message broker). Diagram arsitektur (berikut) juga menampilkan integrasi dengan sistem eksternal (LIS/PACS, BPJS, payment gateway) dan infrastruktur pendukung (monitoring, audit log, backup, KMS/HSM). Setiap komponen dirancang dengan tanggung jawab spesifik, mendukung penggunaan standar kesehatan (HL7 FHIR, ICD) untuk memastikan interoperabilitas【31†L56-L64】【30†L156-L160】.
 
-```mermaid
 graph LR
     subgraph PublicZone [Zona Publik]
         direction LR
