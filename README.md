@@ -457,13 +457,6 @@ Nomor rekam medis dibuat secara otomatis dan unik untuk setiap pasien.
 ```text
 RM-YYYY-XXXXXX
 ```
-
-### Contoh
-
-```text
-RM-2026-000123
-```
-
 Keterangan:
 
 | Komponen | Deskripsi |
@@ -531,7 +524,7 @@ Sistem menerapkan kebijakan perlindungan data pasien dengan prinsip:
 
 ---
 
-# 4.6 Integrasi dengan Modul Lain
+# 4.6 Integrasi dengan Modul Lain & ERD
 
 Modul pendaftaran pasien terintegrasi dengan beberapa modul lain dalam SIR/HIS.
 
@@ -543,6 +536,9 @@ Modul pendaftaran pasien terintegrasi dengan beberapa modul lain dalam SIR/HIS.
 | Farmasi | Pengelolaan resep dan obat pasien |
 | Appointment | Penjadwalan pemeriksaan |
 | Notification | Pengiriman notifikasi jadwal dan antrean |
+
+![Uploading image.png…]()
+
 
 ---
 
