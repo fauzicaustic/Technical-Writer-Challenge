@@ -537,8 +537,7 @@ Modul pendaftaran pasien terintegrasi dengan beberapa modul lain dalam SIR/HIS.
 | Appointment | Penjadwalan pemeriksaan |
 | Notification | Pengiriman notifikasi jadwal dan antrean |
 
-![Uploading image.png…]()
-
+<img width="1536" height="1024" alt="ERD" src="https://github.com/user-attachments/assets/5344c6db-00d5-4756-a76f-5b74ac70f930" />
 
 ---
 
